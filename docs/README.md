@@ -1,7 +1,7 @@
 ## java 开发手册
 
 <div style="text-align:center">
-<p><img src="/_media/logo.jpg" width="200px;"/></p>
+<p><img src="_media/logo.jpg" width="200px;"/></p>
 
 <!--
 [![Gitter](https://badges.gitter.im/javabus-cn/community.svg)](https://gitter.im/javabus-cn/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
