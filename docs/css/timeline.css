@@ -25,6 +25,10 @@ article,section,time,aside{display:block;}
   box-shadow: 0 0 0 5px #fff;
 }
 
+.text-gray {
+  color: #777777;
+}
+
 .text-red {
   color: #f6393f;
 }

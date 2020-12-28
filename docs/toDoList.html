@@ -1,0 +1,92 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+    <title>愿望清单</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+
+    </style>
+    <link href="lovestory/love.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="lovestory/js/jquery.js"></script>
+    <script type="text/javascript" src="lovestory/js/garden.js"></script>
+    <script type="text/javascript" src="lovestory/js/lovefunctions.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BJK504T26X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-BJK504T26X');
+    </script>
+</head>
+
+<body>
+
+
+<div id="mainDiv">
+    <div id="content">
+        <div id="code">
+            <ul>
+                <li style="list-style: none;"><input type="checkbox" class="task-list-item-checkbox"> 说好的一起陪你看海(海边婚纱照少不了哟)...</li>
+                <li style="list-style: none;"><input type="checkbox" class="task-list-item-checkbox"> 你做饭，我洗碗</li>
+                <li style="list-style: none;"><input type="checkbox" class="task-list-item-checkbox"> 陪伴小孩成长</li>
+                <li style="list-style: none;"><input type="checkbox" class="task-list-item-checkbox"> 参加孩子的家长会</li>
+                <li style="list-style: none;"><input type="checkbox" class="task-list-item-checkbox"> 我减肥，你监督(当然更希望你也能参与啦。</li>
+                <li style="list-style: none;"><input type="checkbox" class="task-list-item-checkbox"> 如果第一个小孩是女儿，就要再生一个小孩哟（我才不在乎是男是女呢）</li>
+            </ul>
+        </div>
+        <div id="loveHeart">
+            <canvas id="garden"></canvas>
+            <div id="words">
+                <div id="messages">
+                    <center>
+
+                    </center>
+                    from now on,you are my eyes,and I am your eyes,wo are not alone anymore...
+                    <div id="elapseClock" style="display:none"></div>
+                    <a href='#' id="accept">浪漫计时&nbsp;<sup></sup></a>
+                </div>
+                <div id="loveu">
+                    好像对着全世界大声宣布:<br/> 我爱你，让我们在一起吧!<br/>一起去完成所有我们想完成的事！<br/>
+                    <div class="signature">- 鱼糕宣言</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="copyright">
+        送给我亲爱的笨蛋: <a href="#">高chen</a>
+        <a href="love.html">表白页💞</a>&nbsp;
+        <a href="lovestory.html">返回首页</a>
+    </div>
+</div>
+<script type="text/javascript">
+    if (!document.createElement('canvas').getContext) {
+        var msg = document.createElement("div");
+        msg.id = "errorMsg";
+        msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
+        document.body.appendChild(msg);
+        $("#code").css("display", "none")
+        $("#copyright").css("position", "absolute");
+        $("#copyright").css("bottom", "10px");
+        document.execCommand("stop");
+    } else {
+        // 设置延时
+        setTimeout(function () {
+            adjustWordsPosition();
+            startHeartAnimation();
+        }, 1000 * 10);
+        adjustCodePosition();
+        $("#code").typewriter();
+    }
+</script>
+
+<!-- controls  设置音频控制面板 http://www.runoob.com/tags/tag-audio.html -->
+<audio autoplay loop>
+    <source src="lovestory/media/smfx.mp3" type="audio/mp3"/>
+    <source src="lovestory/media/smfx.mp3" type="audio/ogg"/>
+    <embed height="100" width="100" src="lovestory/media/smfx.mp3"/>
+</audio>
+</body>
+</html>
