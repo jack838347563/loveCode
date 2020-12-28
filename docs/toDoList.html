@@ -31,17 +31,17 @@
         <div id="code">
             <ul>
                 <li style="list-style: none;"><input type="checkbox" class="task-list-item-checkbox">
-                    <span class="wish"> 我减肥，你监督，当然更希望你也能参与啦！</span>
+                    <span class="wish"> 我减肥，你监督，当然更希望你也能参与啦（你懂的）!</span>
                 </li>
                 <li style="list-style: none;"><input type="checkbox" class="task-list-item-checkbox">
-                    <span class="wish"> 说好的一起陪你看海(海边婚纱照少不了哟)...</span>
+                    <span class="wish"> 说好的一起陪你看海(海边婚纱照少不了哟)!</span>
                 </li>
                 <li style="list-style: none;"><input type="checkbox" class="task-list-item-checkbox">
-                    <span class="wish"> 你做饭，我洗碗</span>
+                    <span class="wish"> 你做饭，我洗碗。</span>
                 </li>
                 <li style="list-style: none;"><input type="checkbox" class="task-list-item-checkbox">
-                    <span class="wish"> 如果第一个小孩是女儿，就要再生一个小孩哟</span></br>
-                    <span class="wish" style=" margin-left: 25px">我才不在乎是男是女呢</span>
+                    <span class="wish"> 如果第一个小孩是女儿，就要再生一个小孩哟!</span></br>
+                    <span class="wish" style=" margin-left: 25px">我才不在乎是男是女呢!</span>
                 </li>
                 <li style="list-style: none;"><input type="checkbox" class="task-list-item-checkbox">
                     <span class="wish"> 陪伴小孩成长</span>
@@ -49,11 +49,14 @@
                 <li style="list-style: none;"><input type="checkbox" class="task-list-item-checkbox">
                     <span class="wish"> 参加孩子的家长会</span>
                 </li>
+                <li style="list-style: none;"><input type="checkbox" class="task-list-item-checkbox">
+                    <span class="wish"> 未完待续。。。</span>
+                </li>
             </ul>
         </div>
         <div id="loveHeart">
             <canvas id="garden"></canvas>
-            <div id="words">
+            <div id="words" style="position: relative;top: -450px;left: 90px;">
                 <div id="messages">
                     <center>
 
@@ -89,7 +92,6 @@
         $("#copyright").css("bottom", "10px");
         document.execCommand("stop");
     } else {
-        adjustToDoPosition();
         startHeartAnimation();
         $("#code").typewriter();
     }

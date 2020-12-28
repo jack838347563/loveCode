@@ -114,12 +114,6 @@ function showMessages() {
     })
 }
 
-function adjustToDoPosition() {
-    $("#words").css("position", "absolute");
-    $("#words").css("top", $("#garden").position().top + 195);
-    $("#words").css("left", $("#garden").position().left + 260)
-}
-
 function adjustWordsPosition() {
     $("#words").css("position", "absolute");
     $("#words").css("top", $("#garden").position().top + 195);
