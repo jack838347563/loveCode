@@ -112,9 +112,10 @@
 <div id="particles-js"></div>
 <div id="app">加载中...</div>
 
-<!--<div id="gittalk" style="width: 65%;float: right; text-align: center">-->
-    <!--<div id="gitalk-container" style="padding:0px;margin: 0px;"></div>-->
-<!--</div>-->
+<div id="gittalk" style="width: 65%;float: right; text-align: center">
+    <div id="gitalk-container" style="padding:0px;margin: 0px;"></div>
+    <div id="gitalk-container1" style="padding:0px;margin: 0px;"></div>
+</div>
 
 <!--允许在github上面编辑-->
  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
@@ -205,17 +206,17 @@
             id: location.pathname,      // Ensure uniqueness and length less than 50
             distractionFreeMode: false  // Facebook-like distraction free mode
         });
-        gitalk.render('gitalk-container');
+        gitalk.render('gitalk-container1');
     }
     ((window.gitter = {}).chat = {}).options = {
         room: 'dev_groud/community'
     };
     //留言区跟随滚动条
-    window.onscroll = function () {
-        var gittalk = document.getElementById("gitalk-container");
-        gittalk.style.top =20;
-        console.log(gittalk.style.top)
-    }
+    // window.onscroll = function () {
+    //     var gittalk = document.getElementById("gitalk-container");
+    //     gittalk.style.top =20;
+    //     console.log(gittalk.style.top)
+    // }
 
 </script>
 <!--粒子效果-->
