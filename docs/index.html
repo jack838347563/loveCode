@@ -120,7 +120,7 @@
 
 
 <!--允许在github上面编辑-->
-<!-- <script src="//unpkg.com/docsify-edit-on-github/index.js"></script> -->
+ <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
 <script>
     //禁用底部滚动条 document.documentElement.style.overflowY = 'hidden';
     document.documentElement.style.overflowX = 'hidden';
@@ -185,7 +185,7 @@
 <script src="//unpkg.com/docsify/lib/plugins/external-script.js"></script>
 
 <!--Gitalk 评论插件 https://github.com/gitalk/gitalk/blob/master/readme-cn.md-->
-<!--<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>-->
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 <!--tabs 插件 https://jhildenbiddle.github.io/docsify-tabs/#/-->
 <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 <!-- gitter 聊天室 -->
@@ -195,33 +195,27 @@
         console.log("时光轴页面不显示 评论区")
     } else if (window.screen.width < 768) {
         console.log("屏幕小于 768 不再初始化git talk")
+    }else {//注释掉评论区
+        var gitalk = new Gitalk({
+            clientID: '0135b87767e1fda10921',
+            clientSecret: '5f65bbcd790c2c0a32425fe1474959714d5fed7e',
+            repo: 'loveCode',
+            owner: 'jack838347563',
+            admin: ['jack838347563'],
+            id: location.pathname,      // Ensure uniqueness and length less than 50
+            distractionFreeMode: false  // Facebook-like distraction free mode
+        }
+        gitalk.render('gitalk-container');
     }
-    // else {//注释掉评论区
-    //     var gitalk = new Gitalk({
-    //         clientID: '8f7de33db9ae15e2b269',
-    //         clientSecret: '1397a623e8c724515e23a123cee207eb8d259766',
-    //         repo: 'mdbook',
-    //         owner: 'javastar920905',
-    //         admin: ['javastar920905'],
-    //         id: location.pathname,      // Ensure uniqueness and length less than 50
-    //         distractionFreeMode: false  // Facebook-like distraction free mode
-    //     })
-    //
-    //     gitalk.render('gitalk-container');
-    //
     ((window.gitter = {}).chat = {}).options = {
         room: 'dev_groud/community'
     };
-    // }
-
-
-    // //留言区跟随滚动条
-    // window.onscroll = function () {
-    //     var gittalk = document.getElementById("gittalk");
-    //     gittalk.style.top =20;
-    //     console.log(gittalk.style.top)
-    //
-    // }
+    //留言区跟随滚动条
+    window.onscroll = function () {
+        var gittalk = document.getElementById("gittalk");
+        gittalk.style.top =20;
+        console.log(gittalk.style.top)
+    }
 
 </script>
 <!--粒子效果-->
