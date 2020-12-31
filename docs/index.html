@@ -189,13 +189,8 @@
 <!--tabs 插件 https://jhildenbiddle.github.io/docsify-tabs/#/-->
 <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 <!-- gitter 聊天室 -->
-<!--<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>-->
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 <script>
-    ((window.gitter = {}).chat = {}).options = {
-        room: 'gitterHQ/sidecar',
-        activationElement: '.my-special-button',
-        targetElement: '.my-special-target-element'
-    };
     if (window.location.href.indexOf("localhost") >= 0 || window.location.href.indexOf("timeline.html") >= 0) {
         console.log("时光轴页面不显示 评论区")
     } else if (window.screen.width < 768) {
@@ -214,9 +209,9 @@
     //
     //     gitalk.render('gitalk-container');
     //
-    //     ((window.gitter = {}).chat = {}).options = {
-    //         room: 'javabus-cn/community'
-    //     };
+    ((window.gitter = {}).chat = {}).options = {
+        room: 'dev_groud/community'
+    };
     // }
 
 
