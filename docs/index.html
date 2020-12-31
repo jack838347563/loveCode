@@ -17,9 +17,8 @@
     <!-- <link rel="stylesheet" href="//unpkg.com/docsify/themes/dolphin.css"> -->
     <!-- Theme: Simple (latest v0.x.x) -->
     <!-- docsify-themeable 一个用于docsify的，简单到令人愉悦的主题系统. -->
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-
+    <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"> -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BJK504T26X"></script>
@@ -185,7 +184,10 @@
 <script src="//unpkg.com/docsify/lib/plugins/external-script.js"></script>
 
 <!--Gitalk 评论插件 https://github.com/gitalk/gitalk/blob/master/readme-cn.md-->
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<!--<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>-->
+<!--<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">-->
+<script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+<script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
 <!--tabs 插件 https://jhildenbiddle.github.io/docsify-tabs/#/-->
 <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 <!-- gitter 聊天室 -->
@@ -204,7 +206,7 @@
             admin: ['jack838347563'],
             id: location.pathname,      // Ensure uniqueness and length less than 50
             distractionFreeMode: false  // Facebook-like distraction free mode
-        }
+        });
         gitalk.render('gitalk-container');
     }
     ((window.gitter = {}).chat = {}).options = {
