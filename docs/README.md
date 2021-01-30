@@ -1,18 +1,5 @@
 ## java 开发手册
 
-<div style="text-align:center">
-<p><img src="_media/logo.jpg" width="200px;"/></p>
-
-<!--
-[![Gitter](https://badges.gitter.im/javabus-cn/community.svg)](https://gitter.im/javabus-cn/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
-主页: [javabus.cn](https://javabus.cn)  粤ICP备17145208号
-    
-<p>QQ群: 630848940 <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=6516174192ac3555efe1773ce3a584250a0412b82722dec2f8507a9931c5c909"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="javabus.cn" title="javabus.cn"></a></p>
--->    
-</div>
-
-
 ## 项目简介
 
 java 开发参考手册, awesome java. , 目前更多的是当成个人总结备忘工具来使用.

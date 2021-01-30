@@ -245,7 +245,7 @@
                 success: function (data) {
                     selectItem = data.data;
 
-                    content = categorys + '<div class="layui-form-item"><input value="' + selectItem.data.url + '"  type="text" name="url"   placeholder="(必须) 请输入链接url  如: https://javabus.cn,不能有#&等特殊字符" autocomplete="off" class="layui-input"> </div>' +
+                    content = categorys + '<div class="layui-form-item"><input value="' + selectItem.data.url + '"  type="text" name="url"   placeholder="(必须) 请输入链接url  如: https://baidu.com,不能有#&等特殊字符" autocomplete="off" class="layui-input"> </div>' +
                         '  <div class="layui-form-item"><input value="' + selectItem.data.remarks + '" type="text" name="remarks"  placeholder="(必须) 请输入名称或描述" autocomplete="off" class="layui-input"> </div>' +
                         '<div class="layui-form-item"><input value="' + selectItem.data.icon + '" type="text" name="icon"   placeholder="请输入logo url ,不能有#&等特殊字符" autocomplete="off" class="layui-input"> </div>';
                 }
@@ -253,7 +253,7 @@
 
         } else {
             //新增链接
-            content = categorys + '<div class="layui-form-item"><input   type="text" name="url"   placeholder="(必须) 请输入链接url  如: https://javabus.cn,不能有#&等特殊字符" autocomplete="off" class="layui-input"> </div>' +
+            content = categorys + '<div class="layui-form-item"><input   type="text" name="url"   placeholder="(必须) 请输入链接url  如: https://baidu.com,不能有#&等特殊字符" autocomplete="off" class="layui-input"> </div>' +
                 '  <div class="layui-form-item"><input  type="text" name="remarks"  placeholder="(必须) 请输入名称或描述" autocomplete="off" class="layui-input"> </div>' +
                 '<div class="layui-form-item"><input type="text" name="icon"   placeholder="请输入logo url ,不能有#&等特殊字符" autocomplete="off" class="layui-input"> </div>';
         }

@@ -29,7 +29,7 @@
 
 ## 后期坑
 
-* spring boot 集成各种技术, 速查手册 https://javabus.cn
+* spring boot 集成各种技术, 速查手册 https://github.com/ityouknow/spring-boot-examples
   * mvc shiro cache 
   * 中间件 redis mq
   * 开放 api 短信，邮件，支付， 云存储

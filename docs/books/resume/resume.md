@@ -7,8 +7,8 @@
 
 # 个人信息
 - zyan/男
-- 技术博客：https://javabus.cn
-- Github：https://github.com/javastar920905
+- 技术博客：https://jack838347563.github.io/loveCode
+- Github：https://github.com/jack838347563
 - 期望职位：Java高级开发，项目技术负责人
 - 到职时间：一个月内
 

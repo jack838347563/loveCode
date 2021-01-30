@@ -94,7 +94,7 @@ app_key=F7427CADEFF47A4368C87B334FC5C34F 个人中心查看
 ```
 - hello world 接口 
 ```$xslt
-http://hd215.api.yesapi.cn/?s=App.Hello.World&name=javabus.cn&app_key=F7427CADEFF47A4368C87B334FC5C34F
+http://hd215.api.yesapi.cn/?s=App.Hello.World&name=xxx&app_key=xxxxxx
 ```
 
 
