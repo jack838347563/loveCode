@@ -37,15 +37,14 @@
    * [vue 系列](books/5.front/vue_learn.md)
    * [ vue seo 技术调研](books/5.front/vue_seo.md)
    * [公众平台-小程序等](books/5.front/weixin.md)
-* resume🔞 
+* 6.resume🎟
    * [ java 面试题](books/resume/interview.md)
    * [ 使用冷熊简历模板写简历](books/resume/resume-template.md)
    * [ zyan 个人简历](books/resume/resume.md)
 
-* lovestory🌹
+* 7.lovestory🌹
    * <a href="lovestory.html" target="_blank">lovestory💜</a>
    * <a href="love.html" target="_blank">love💛</a>
    * <a href="toDoList.html" target="_blank">toDo☑</a>
-   
-* gameList🎮
-   * <a href="games/game.html" target="_blank">🍉合成大西瓜</a>
+   * <a href="games/game.html" target="_blank">合成大西瓜🍉</a>
+  
