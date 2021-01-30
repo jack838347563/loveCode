@@ -126,7 +126,7 @@
         //使用cloud studio 不需要在线编辑插件了 EditOnGithubPlugin.create("https://github.com/tree/master/docs/","","在线编辑")
     ]
     //时光轴页面不显示 在线编辑按钮
-    if (window.screen.width < 768 || window.location.href.indexOf("timeline.html") >= 0) {
+    if (window.screen.width < 768 || window.location.href.indexOf("game.html") >= 0) {
         pluginVar = [];
     }
 
@@ -191,7 +191,7 @@
 <!-- gitter 聊天室 -->
 <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 <script>
-    if (window.location.href.indexOf("localhost") >= 0 || window.location.href.indexOf("timeline.html") >= 0) {
+    if (window.location.href.indexOf("localhost") >= 0 || window.location.href.indexOf("game.html") >= 0) {
         console.log("时光轴页面不显示 评论区")
     } else if (window.screen.width < 768) {
         console.log("屏幕小于 768 不再初始化git talk")

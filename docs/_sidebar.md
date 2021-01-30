@@ -46,3 +46,6 @@
    * <a href="lovestory.html" target="_blank">lovestory💜</a>
    * <a href="love.html" target="_blank">love💛</a>
    * <a href="toDoList.html" target="_blank">toDo☑</a>
+   
+* gameList🎮
+   * <a href="games/game.html" target="_blank">🍉合成大西瓜</a>
