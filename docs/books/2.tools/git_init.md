@@ -200,6 +200,26 @@ git checkout -b 本地分支名 origin/远程分支名
 <li><A HREF="http://www.cnblogs.com/xiaobaihome/archive/2012/03/20/2407610.html" >SVN服务器搭建和使用（一） - xjbest - 博客园</A></li>
 <li><A HREF="http://jingyan.baidu.com/article/93f9803fea9ff4e0e46f55f0.html" >svn安装与其服务器搭建_百度经验</A></li>
 
+#### ** 常用git仓库搭建 **
+## gogs
+* 软件简介
+    * Gogs 是一款极易搭建的自助 Git 服务。
+* 开发目的
+   * Gogs 的目标是打造一个最简单、最快速和最轻松的方式搭建自助 Git 服务。使用 Go 语言开发使得 Gogs 能够通过独立的二进制分发，并且支持 Go 语言支持的 所有平台，包括 Linux、Mac OS X、Windows 以及 ARM 平台。
+* 安装部署
+   * [二进制安装](http://gogs.io/docs/installation/install_from_binary.html)
+   * [源码安装](http://gogs.io/docs/installation/install_from_source.html)
+   * [包管理安装](http://gogs.io/docs/installation/install_from_packages.html)
+   * [采用 Docker 部署](https://github.com/gogits/gogs/tree/master/docker)
+   * [通过 Vagrant 安装](https://github.com/geerlingguy/ansible-vagrant-examples/tree/master/gogs)
+
+## gitlab
+* 软件简介
+    * GitLab是一个利用 Ruby on Rails 开发的开源应用程序，实现一个自托管的Git项目仓库，可通过Web界面进行访问公开的或者私人项目。
+      它拥有与Github类似的功能，能够浏览源代码，管理缺陷和注释。可以管理团队对仓库的访问，它非常易于浏览提交过的版本并提供一个文件历史库。它还提供一个代码片段收集功能可以轻松实现代码复用，便于日后有需要的时候进行查找。
+      GitLab 5.0以前版本要求服务器端采用 Gitolite 搭建，5.0版本以后不再使用 Gitolite ，采用自己开发的 gitlab-shell 来实现。如果你觉得安装麻烦可以使用 GitLab Installers 一键安装程序。
+* 安装部署
+    * [Windows10 上Docker 安装运行Gitlab](https://www.cnblogs.com/craigtaylor/p/13585821.html) 
 
 #### ** git 原理学习-待更新 **
 ## [git的内部存储结构](https://www.toutiao.com/a6697183062993666564/?tt_from=mobile_qq&utm_campaign=client_share&timestamp=1559541930&app=news_article&utm_source=mobile_qq&utm_medium=toutiao_android&req_id=2019060314053001002506614044853B9&group_id=6697183062993666564)
