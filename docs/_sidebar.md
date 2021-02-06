@@ -41,6 +41,7 @@
    * [ java 面试题](books/resume/interview.md)
    * [ 使用冷熊简历模板写简历](books/resume/resume-template.md)
    * [ zyan 个人简历](books/resume/resume.md)
+   * [github优秀项目](books/resume/github.md)
 
 * 7.lovestory🌹
    * <a href="lovestory.html" target="_blank">lovestory💜</a>
