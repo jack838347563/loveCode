@@ -17,7 +17,6 @@
 * 3.java💖 
    * [ java学习路线图](books/3.java/1.route.md)
    * [ 敏捷开发指南](books/3.java/2.devops.md)
-   * [ spring boot 系列](books/3.java/2.spring.md)
    * [ java 常用工具类](books/3.java/3.tool.md)
    * [api-手册](books/3.java/api_reference.md)
    * [ 佛祖保佑 banner.txt](books/3.java/banner.md)
@@ -42,8 +41,9 @@
    * [ 使用冷熊简历模板写简历](books/resume/resume-template.md)
    * [ zyan 个人简历](books/resume/resume.md)
    * [github优秀项目](books/resume/github.md)
-
-* 7.lovestory🌹
+* 7.springboot专题🎟
+  * [ spring boot 系列](books/springboot/2.spring.md)
+* 8.lovestory🌹
    * <a href="lovestory.html" target="_blank">lovestory💜</a>
    * <a href="love.html" target="_blank">love💛</a>
    * <a href="toDoList.html" target="_blank">toDo☑</a>

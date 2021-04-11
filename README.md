@@ -21,7 +21,7 @@ java 开发参考手册, awesome java. , 目前更多的是当成个人总结备
    > * [公众平台-小程序等](docs/books/5.front/weixin.md)   
 - 如果你是java开发,推荐一些好的教程资源给你
    > * [ java学习路线图](docs/books/3.java/1.route.md) 整理一下java学习复习路线,大纲 为以后巩固基础做准备
-   > * [ spring boot 系列](docs/books/3.java/2.spring.md) spring boot+mybatis 每天开发要用到的,需要摸清,弄透彻
+   > * [ spring boot 系列](docs/books/springboot/2.spring.md) spring boot+mybatis 每天开发要用到的,需要摸清,弄透彻
    > * [ docker 资源](docs/books/4.linux/docker.md) 深度钻研目标 . 当你有一定见识广度以后,你就要要考虑成为某一领域的专家了.
    > * [ nginx 学习资源](docs/books/4.linux/nginx.md) 待整理,nginx 的学习是不可或缺的.
    > * [在线开发_运行工具](docs/books/2.tools/dev_online.md) 站长工具箱,常用在线转换工具
